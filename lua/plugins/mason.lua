@@ -1,7 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
--- Customize Mason
-
 ---@type LazySpec
 return {
   -- use mason-tool-installer for automatically installing Mason packages
@@ -22,6 +18,27 @@ return {
 
         -- install any other package
         "tree-sitter-cli",
+
+        "mdx-analyzer",
+        "java-language-server",
+        "docker-language-server",
+        "css-lsp",
+        "dockerfile-language-server",
+        "python-lsp-server",
+        "vim-language-server",
+        "laravel-ls",
+        "yaml-language-server",
+        "html-lsp",
+        "docker-compose-language-service",
+        "bash-language-server",
+        "typescript-language-server",
+        "helm-ls",
+        "intelephense",
+        "tofu-ls",
+        "terraform-ls",
+        "tailwindcss-language-server",
+        "json-lsp",
+        "jq"
       },
     },
   },
