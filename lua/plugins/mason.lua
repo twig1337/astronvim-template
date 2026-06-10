@@ -12,6 +12,7 @@ return {
 
         -- install formatters
         "stylua",
+        "prettier",
 
         -- install debuggers
         "debugpy",
@@ -38,7 +39,7 @@ return {
         "terraform-ls",
         "tailwindcss-language-server",
         "json-lsp",
-        "jq"
+        "jq",
       },
     },
   },
